@@ -14,7 +14,6 @@ public class ExchangeRatesController implements LatestController {
     public LatestRatesApi latestRatesApi;
 
 
-
     @Override
     public ResponseEntity<Response> getResponse() {
         com.poc.restclient.model.Response responseSource = latestRatesApi.latestGet();

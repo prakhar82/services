@@ -1,0 +1,24 @@
+#%RAML 1.0
+---
+title: "create"
+version: v1
+protocols: [HTTP, HTTPS]
+baseUri: "api"
+mediaType: application/json
+
+
+#=================================
+# API resource definitions
+#=================================
+
+/data:
+  post:
+    body:
+        application/json:
+          type: !include schemas/store-details-request.json
+    responses:
+      201:
+        description: Data succesfully created.
+
+
+

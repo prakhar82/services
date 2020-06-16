@@ -4,6 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.3.1.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
     <artifactId>services</artifactId>
     <packaging>pom</packaging>
     <groupId>com.poc</groupId>
@@ -13,6 +20,7 @@
     <description>external services</description>
     <modules>
         <module>exchange-rate</module>
+        <module>data-creation</module>
     </modules>
 </project>
 

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/create-data/create-data.iml" filepath="$PROJECT_DIR$/create-data/create-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/create-data/create-data-service/create-data-service.iml" filepath="$PROJECT_DIR$/create-data/create-data-service/create-data-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/create-data/create-data-specification/create-data-specification.iml" filepath="$PROJECT_DIR$/create-data/create-data-specification/create-data-specification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data-creation/data-creation-service/data-creation-service.iml" filepath="$PROJECT_DIR$/data-creation/data-creation-service/data-creation-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data-creation/data-creation-specification/data-creation-specification.iml" filepath="$PROJECT_DIR$/data-creation/data-creation-specification/data-creation-specification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exchange-rate/exchange-rate.iml" filepath="$PROJECT_DIR$/exchange-rate/exchange-rate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exchange-rate/exchange-rate-service/exchange-rate-service.iml" filepath="$PROJECT_DIR$/exchange-rate/exchange-rate-service/exchange-rate-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exchange-rate/exchange-rate-specification/exchange-rate-specification.iml" filepath="$PROJECT_DIR$/exchange-rate/exchange-rate-specification/exchange-rate-specification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services.iml" filepath="$PROJECT_DIR$/services.iml" />
+    </modules>
+  </component>
+</project>
