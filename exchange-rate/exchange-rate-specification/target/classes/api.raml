@@ -1,0 +1,21 @@
+#%RAML 1.0
+---
+title: exchangerate
+version: v1
+baseUri: "api"
+mediaType: application/json
+protocols: [HTTP, HTTPS]
+
+#=================================
+# API resource definitions
+#=================================
+
+/latest:
+  displayName: latest rates
+  get:
+    responses:
+      200:
+        body:
+          application/json:
+            type: !include schemas/exchangerate-get-response.json
+

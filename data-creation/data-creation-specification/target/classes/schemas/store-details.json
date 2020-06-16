@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "store-id": {
+      "type": "string"
+    },
+    "store-country": {
+      "type": "string"
+    },
+    "store-location": {
+      "type": "string"
+    },
+    "product-category": {
+      "type": "string"
+    },
+    "product-id": {
+      "type": "number"
+    },
+    "discount": {
+      "type": "string"
+    },
+    "MRP": {
+      "type": "string"
+    },
+    "CP": {
+      "type": "string"
+    },
+    "SP":{
+      "type": "string"
+    },
+    "transaction-date": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "store-id",
+    "store-country",
+    "store-location",
+    "product-category",
+    "product-id",
+    "MRP",
+    "CP",
+    "discount",
+    "SP",
+    "transaction-date"
+
+      ]
+}

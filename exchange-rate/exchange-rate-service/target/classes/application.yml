@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: exchange-rate-service
+  
+
+server:
+  port: 3333
+  contextPath: /exchange-rate-service
+
+# Logging
+logging:
+  level:
+    org.springframework: INFO
+
