@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="data-creation-service" />
+        <module name="data-creation-specification" />
+        <module name="exchange-rate-service" />
+        <module name="exchange-rate-specification" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="data-creation-service" target="1.5" />
+      <module name="data-creation-specification" target="1.5" />
+      <module name="exchange-rate" target="1.8" />
+      <module name="exchange-rate-service" target="1.8" />
+      <module name="exchange-rate-specification" target="1.8" />
+      <module name="services (1) (org.example)" target="1.8" />
+      <module name="services (2) (com.poc)" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="data-creation-service" options="-parameters" />
+      <module name="data-creation-specification" options="-parameters" />
+      <module name="exchange-rate-service" options="-parameters" />
+      <module name="exchange-rate-specification" options="-parameters" />
+    </option>
+  </component>
+</project>
